@@ -1,0 +1,121 @@
+body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+
+a {
+	text-decoration:none;
+}
+
+input[type="submit"] {
+	border:0px solid #688bb0;
+	background-color:#fff;
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+.main {
+	max-width:1000px;
+	margin:10px auto;
+
+}
+/*MENU*/
+header{
+	display:flex;
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	margin-top:20px;
+	justify-content:flex-start;
+}
+.nav {
+	padding: 10px 3px;
+}
+ 
+.nav a {
+	color:#000;
+	font-size:18px;
+	margin-right:20px;
+}
+
+.nav a:hover {
+	background-color:#3CB371;
+	text-decoration: underline;
+}
+
+/*left sidebar*/
+.container{
+	display:flex;
+	width:100%;
+	justify-content:flex-start;
+	margin-top:40px;
+}
+
+.container-left-sidebar {
+	width:150px;
+}
+
+.container-left-sidebar div {
+	font-size:20px;
+	margin-bottom:5px;
+}
+
+/*chat field*/
+.chat-field-block {
+	margin-bottom:15px;
+	
+}
+
+.chat-field-link, .chat-field-recipient, .chat-field-text {
+	font-size:20px;
+}
+
+.chat-field-date {
+	
+}
+
+.chat-field-text {
+	color:#000;
+	font-size:18px;
+}
+
+.chat-field-form-text {
+	color:#000;
+}
+
+.private .chat-field-text, .private  .chat-field-comment-type {
+	color:#B22222;
+} 
+
+.chat-field-comm {
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+/*hide panel*/
+#hide {
+	display:none;
+}
+
+.hide-marg {
+	margin-bottom:10px;
+}
+
+#message {
+	font-size:20px;	
+	padding:10px;
+	
+}
+
+#print {
+	margin-top:20px;
+	font-size:15px;
+	color:#006400;
+}
+
+/*footer*/
+.footer {
+	max-width:1000px;
+	margin:40px auto;
+}
