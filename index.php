@@ -1,9 +1,5 @@
 <?php
 require("backend.php");
-error_reporting(E_ALL & ~E_NOTICE);
-$user_name = $_COOKIE["username"];
-$res_arr = $obj -> get_comment($user_name);
-$users_online = $obj -> get_user_online();
 ?>
 <!doctype html>
 <html>
