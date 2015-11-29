@@ -1,5 +1,6 @@
 <?php
 require("msql.php");
+error_reporting(E_ALL & ~E_NOTICE);
 class Backend extends M_MSQL
 {
 	private static $instance;
@@ -63,6 +64,9 @@ class Backend extends M_MSQL
 }
 
 $obj = new Backend;
+$user_name = $_COOKIE["username"];
+$res_arr = $obj -> get_comment($user_name);
+$users_online = $obj -> get_user_online();
 
 if (isset ($_POST["hide_add_comm"]))
 	{
